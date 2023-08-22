@@ -5,7 +5,6 @@ layout: doc
 import "gitalk/dist/gitalk.css";
 import Gitalk from "gitalk";
 import { onMounted } from 'vue';
-//解决“vitepress在编译的时候无法使用window，而gitalk是依赖window.document去加载节点的”：https://younglina.top/write/docs/vitepress-gitalk.html
 onMounted(() => {
   if(typeof window !==undefined){
     var s_div = document.createElement('div');   // 创建节点
@@ -24,14 +23,7 @@ onMounted(() => {
   }
 })
 </script>
-Address：Hangkonggang Campus (航空港校区)
-No.24 Block 1, Xuefu Road, Shungliu District, Chengdu, China
-(四川省成都市双流区学府路一段24号)
-
-Email：`fengao@cuit.edu.cn`
-
-![图片](/image/address.png)
-
+这是评论模块
 <div id="gitalk"></div>
 
 
