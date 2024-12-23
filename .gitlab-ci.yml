@@ -2,6 +2,7 @@ variables:
   INSTANCE: 'Writerside/in'
   DOCKER_VERSION: '243.22562'
 
+
 stages:
   - build
   - test
