@@ -42,7 +42,7 @@ test:
 
 pages:
   stage: deploy
-  image: ubuntu:latest
+  image: ubuntu:20.04
   before_script:
     - apt-get update -y && apt-get install unzip -y
 
