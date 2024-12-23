@@ -3,9 +3,11 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="in"
-                 name="Instance_name"
+                 name="言辰寸心的简单博客"
                  start-page="starter.md">
 
+    <toc-element topic="Linux新建用户与文件权限设置.md"/>
+    <toc-element topic="conda下载与自启配置.md"/>
     <toc-element topic="starter.md"/>
     <toc-element topic="Prompt-Engineering经验总结.md"/>
     <toc-element topic="Linux查后台进程与nohup.md"/>
