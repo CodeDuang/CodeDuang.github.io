@@ -11,13 +11,13 @@
     <toc-element topic="conda下载与自启配置.md"/>
     <toc-element topic="linux-常用命令合集.md"/>
     <toc-element topic="starter.md"/>
-    <toc-element topic="Prompt-Engineering经验总结.md"/>
+    <toc-element topic="Article-Prompt-Engineering经验总结.md"/>
     <toc-element topic="快捷键.md"/>
     <toc-element topic="Troubleshooting-frpc运行成功，访问远程端口超时.md"/>
     <toc-element topic="git疑难杂症与命令.md"/>
-    <toc-element topic="Linux查后台进程与nohup.md"/>
+    <toc-element topic="Linux-查后台进程与nohup.md"/>
     <toc-element topic="vscode远程连接服务器并根据项目配置setting.json.md"/>
-    <toc-element topic="huggingface_cannt_git_clone.md"/>
+    <toc-element topic="Troubleshooting-huggingface_cannt_git_clone.md"/>
     <toc-element topic="如何设置命令行or终端代理(期待进一步完成linux的代理操作).md"/>
-    <toc-element topic="ubuntu系统配置中文包-原生英文显示中文乱码.md"/>
+    <toc-element topic="Linux-ubuntu系统配置中文包-原生英文显示中文乱码.md"/>
 </instance-profile>

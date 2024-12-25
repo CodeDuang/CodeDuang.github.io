@@ -1,4 +1,4 @@
-# ubuntu系统配置中文包(原生英文显示中文乱码)
+# [Linux]ubuntu系统配置中文包(原生英文显示中文乱码)
 
 参考博客：
 [1][ubuntu 配置 locale（语言环境）](https://blog.csdn.net/ymz641/article/details/131607024)
