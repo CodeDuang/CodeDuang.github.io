@@ -12,6 +12,7 @@
     <toc-element topic="starter.md"/>
     <toc-element topic="Prompt-Engineering经验总结.md"/>
     <toc-element topic="快捷键.md"/>
+    <toc-element topic="git疑难杂症与命令.md"/>
     <toc-element topic="Linux查后台进程与nohup.md"/>
     <toc-element topic="vscode远程连接服务器并根据项目配置setting.json.md"/>
     <toc-element topic="huggingface_cannt_git_clone.md"/>
