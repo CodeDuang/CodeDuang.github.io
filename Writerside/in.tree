@@ -14,6 +14,7 @@
     <toc-element topic="starter.md"/>
     <toc-element topic="Article-Prompt-Engineering经验总结.md"/>
     <toc-element topic="快捷键.md"/>
+    <toc-element topic="在vitepress中集成gitalk评论功能的步骤与坑.md"/>
     <toc-element topic="Troubleshooting-frpc运行成功，访问远程端口超时.md"/>
     <toc-element topic="git疑难杂症与命令.md"/>
     <toc-element topic="Linux-查后台进程与nohup.md"/>
