@@ -6,6 +6,7 @@
 ls -l | grep "^-" | wc -l
 ```
 
+
 2. 获取内存情况
 ```Bash
 free -h
@@ -31,12 +32,13 @@ nc -vz [ip] [port]
 nc -vz 127.0.0.1 22
 nc -vz 8.137.124.187 7002
 ```
-解释：
-- nc: netcat 的缩写，是一个强大的网络工具，可以进行网络连接、端口扫描、数据传输等。
-- -v: 启用详细模式（verbose），会输出更多信息，比如连接尝试的状态。
-- -z: 启用扫描模式（zero I/O mode），不发送数据，只尝试建立连接，主要用于端口扫描。
+<procedure title="解释：" id="inject-a-procedure">
+    <p><shortcut>nc</shortcut>：netcat 的缩写，是一个强大的网络工具，可以进行网络连接、端口扫描、数据传输等。</p>
+    <p><shortcut>-v</shortcut>：启用详细模式（verbose），会输出更多信息，比如连接尝试的状态。</p>
+    <p><shortcut>-z</shortcut>：启用扫描模式（zero I/O mode），不发送数据，只尝试建立连接，主要用于端口扫描。</p>
+</procedure>
 
-6. 压缩包解压
+6. 解压
 ```Bash
 #zip解压命令
 unzip [zip文件名]
@@ -46,10 +48,34 @@ tar -xf [文件名]
 tar -xzf [文件名]
 ```
 
-7. 压缩包压缩
+7. 压缩
 ```Bash
 #不压缩，仅归档（.tar）([file1] [file2] ...表示可以压缩多个文件或者仅1个文件)
 tar -cf  [压缩包名.tar] [file1] [file2] ...
 #gzip压缩（.tar.gz）
 tar -czf [压缩包名.tar.gz] [file1] [file2] ...
 ```
+
+8. 生成venv虚拟环境
+```Bash
+#前提是已经在一个python环境下，想要额外针对项目生成一个虚拟环境
+pyhon -m venv [路径+文件名]
+#举例（不给路径，表示就在命令所在路径生成虚拟环境）
+pyhon -m venv .venv
+pyhon -m venv /home/yc/yolov8/.venv
+```
+9. 使用python起一个局域网http文件服务
+```Bash
+#指定目录+端口
+python -m http.server 8080 --directory /path/to/your/directory
+#简单版，默认在命令目录开8000端口
+python -m http.server
+```
+9. 使用python起一个局域网http文件服务
+```Bash
+#指定目录+端口
+python -m http.server 8080 --directory /path/to/your/directory
+#简单版，默认在命令目录开8000端口
+python -m http.server
+```
+
