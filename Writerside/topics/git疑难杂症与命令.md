@@ -1,5 +1,21 @@
 # git疑难杂症与命令
 
+## git清除缓存+忽略上传文件 {id="git_1"}
+### 清除缓存
+```Bash
+#这种会清除本地所有的git add . 和 git commit -m "" 的东西
+git rm -rf . --cached
+#随时可以查看一下日志
+git log
+```
+### 忽略上传（管理本地和github文件） {id="github_1"}
+```Bash
+#创建.gitignore文件
+touch .gitignore
+#把不想上传到远程仓库的文件名传入.gitignore
+echo ".idea" > .gitignore
+```
+
 ## github空仓库，直接上传本地项目
 ```Bash
 git remote add origin git@github.com:CodeDuang/blog_old_file.git
@@ -35,7 +51,6 @@ git add .
 git commit -m "上传"
 git push --set-upstream origin main
 ```
-
 
 
 
