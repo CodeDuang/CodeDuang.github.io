@@ -6,20 +6,22 @@
                  name="言辰"
                  start-page="starter.md">
 
+    <toc-element topic="Article-Prompt-Engineering经验总结.md"/>
+    <toc-element topic="Experience-在vitepress中集成gitalk评论功能的步骤与坑.md"/>
+    <toc-element topic="Experience-conda下载与自启配置.md"/>
+    <toc-element topic="Experience-vscode远程连接服务器并根据项目配置setting.json.md"/>
+    <toc-element topic="Experience-如何设置命令行or终端代理(期待进一步完成linux的代理操作).md"/>
     <toc-element topic="link.md"/>
     <toc-element topic="Linux-新建用户与文件权限设置.md"/>
-    <toc-element topic="SQL-mysql学习笔记（连载中）.md"/>
-    <toc-element topic="conda下载与自启配置.md"/>
     <toc-element topic="linux-常用命令合集.md"/>
-    <toc-element topic="starter.md"/>
-    <toc-element topic="Article-Prompt-Engineering经验总结.md"/>
-    <toc-element topic="快捷键.md"/>
-    <toc-element topic="在vitepress中集成gitalk评论功能的步骤与坑.md"/>
-    <toc-element topic="Troubleshooting-frpc运行成功，访问远程端口超时.md"/>
-    <toc-element topic="git疑难杂症与命令.md"/>
     <toc-element topic="Linux-查后台进程与nohup.md"/>
-    <toc-element topic="vscode远程连接服务器并根据项目配置setting.json.md"/>
-    <toc-element topic="Troubleshooting-huggingface_cannt_git_clone.md"/>
-    <toc-element topic="如何设置命令行or终端代理(期待进一步完成linux的代理操作).md"/>
     <toc-element topic="Linux-ubuntu系统配置中文包-原生英文显示中文乱码.md"/>
+    <toc-element topic="Cpp-蓝桥杯备赛-背诵模板.md"/>
+    <toc-element topic="Cpp-用txt文本内容代替cin手动输入.md"/>
+    <toc-element topic="SQL-mysql学习笔记（连载中）.md"/>
+    <toc-element topic="Troubleshooting-frpc运行成功，访问远程端口超时.md"/>
+    <toc-element topic="Troubleshooting-git疑难杂症与命令.md"/>
+    <toc-element topic="Troubleshooting-huggingface_cannt_git_clone.md"/>
+    <toc-element topic="starter.md"/>
+    <toc-element topic="快捷键.md"/>
 </instance-profile>
