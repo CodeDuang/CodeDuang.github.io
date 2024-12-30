@@ -1,4 +1,4 @@
-# git疑难杂症与命令
+# [Troubleshooting]git疑难杂症与命令
 
 ## git清除缓存+忽略上传文件 {id="git_1"}
 ### 清除缓存

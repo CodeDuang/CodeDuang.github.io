@@ -1,4 +1,4 @@
-# 在vitepress中集成gitalk评论功能的步骤与坑
+# [Experience]在vitepress中集成gitalk评论功能的步骤与坑
 
 ## 概要
 原理：评论需要登陆github账户，每次评论相当于在github仓库中发issues，利用github仓库的issues来存放和管理每个用户的评论，然后gitalk调用api来显示到页面上，以达到评论和显示他人评论的目的。

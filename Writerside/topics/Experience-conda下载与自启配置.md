@@ -1,4 +1,4 @@
-# conda下载与自启配置
+# [Experience]conda下载与自启配置
 *注意：该博客由于是很早之前写的，现在回顾，稍有粗糙*
 
 Linux启动时读取配置文件的顺序: [https://blog.csdn.net/fengyuyeguirenenen/article/details/133978944](https://blog.csdn.net/fengyuyeguirenenen/article/details/133978944)
