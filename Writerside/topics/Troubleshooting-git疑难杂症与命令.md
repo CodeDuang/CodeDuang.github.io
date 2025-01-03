@@ -86,5 +86,4 @@ Host github.com
   HostName ssh.github.com
   User git
   Port 443
-  IdentityFile D:\xcl\blog\.ssh\id_rsa
 ```
