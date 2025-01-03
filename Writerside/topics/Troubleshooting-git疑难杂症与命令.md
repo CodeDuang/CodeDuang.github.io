@@ -59,7 +59,7 @@ git push --set-upstream origin main
 测试是否正常连接（github可以换为gitlab）：
 ssh -T git@github.com
 
-
+## ssh-agent
 本地生成密匙（注意最后的邮箱，可填自己邮箱）：
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
@@ -75,3 +75,8 @@ ssh-add ~/.ssh/id_rsa
 首先执行 exec ssh-agent bash 来启动一个新的bash实例，其中SSH代理被启动。  
 然后执行 eval ssh-agent -s 来设置环境变量。  
 最后执行 ssh-add "D:\blog\.ssh\id_rsa" 来添加你的私钥  
+
+## 443端口
+如果在配置了ssh-agent还有密钥，还是无法使用
+`ssh -T git@github.com`成功连接github,
+可以试试`ssh -T git@github.com`
