@@ -66,4 +66,12 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 本地选择密钥路径
 ssh-add ~/.ssh/id_rsa
 
-检查SSH Agent服务状态（略）
+检查SSH Agent服务状态
+`win+R` 打开运行
+输入： `services.msc`
+找到：OpenSSH Authentication Agent
+设置为自动启动
+---（如果还没有用的话，在git bash页面，输入下面命令）---
+首先执行 exec ssh-agent bash 来启动一个新的bash实例，其中SSH代理被启动。
+然后执行 eval ssh-agent -s 来设置环境变量。
+最后执行 ssh-add "D:\blog\.ssh\id_rsa" 来添加你的私钥
