@@ -77,6 +77,14 @@ ssh-add ~/.ssh/id_rsa
 最后执行 ssh-add "D:\blog\.ssh\id_rsa" 来添加你的私钥  
 
 ## 443端口
-如果在配置了ssh-agent还有密钥，还是无法使用
-`ssh -T git@github.com`成功连接github,
-可以试试`ssh -T git@github.com`
+如果在配置了ssh-agent还有密钥，还是无法使用  
+`ssh -T git@github.com`成功连接github,  
+可以试试`ssh -T -p 443 git@ssh.github.com`如果成功，说明主要问题出现在22端口无法访问，  
+在这个路径：`C:\Users\[用户名]\.ssh`找到文件`config`,编辑加入下面这段：  
+```Bash
+Host github.com
+  HostName ssh.github.com
+  User git
+  Port 443
+  IdentityFile D:\xcl\blog\.ssh\id_rsa
+```
