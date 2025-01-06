@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="3d327a9d">
+        <description>Created after removal of "[frp]frpc运行成功，访问远程端口超时" from 言辰</description>
+        <accepts>frp-frpc运行成功，访问远程端口超时.html</accepts>
+    </rule>
+</rules>

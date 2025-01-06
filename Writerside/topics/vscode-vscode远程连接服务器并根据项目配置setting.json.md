@@ -1,4 +1,4 @@
-# [Experience]vscode远程连接服务器并根据项目配置setting.json
+# [vscode]vscode远程连接服务器并根据项目配置setting.json
 
 ## vscode连接好远程服务器，打开项目文件，按下快捷键：`Ctrl+Shift+P`
 ![image_4.png](image_4.png)

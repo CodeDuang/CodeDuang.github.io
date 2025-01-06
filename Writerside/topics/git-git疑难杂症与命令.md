@@ -1,4 +1,4 @@
-# [Troubleshooting]git疑难杂症与命令
+# [git]git疑难杂症与命令
 
 ## git清除缓存+忽略上传文件 {id="git_1"}
 ### 清除缓存
@@ -60,6 +60,16 @@ git push --set-upstream origin main
 ssh -T git@github.com
 
 ## ssh-agent
+
+```Bash
+# 报错(系统无法连接到ssh-agent)
+Could not open a connection to your authentication agent.
+
+# 启动 SSH 代理
+eval "$(ssh-agent -s)"
+```
+
+
 本地生成密匙（注意最后的邮箱，可填自己邮箱）：
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
