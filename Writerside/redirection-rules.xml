@@ -10,4 +10,10 @@
         <description>Created after removal of "[frp]frpc运行成功，访问远程端口超时" from 言辰</description>
         <accepts>frp-frpc运行成功，访问远程端口超时.html</accepts>
     </rule>
+    <rule id="6f22a632">
+        <description>Created after removal of "[vscode]连接服务器卡，总是断链（试图了解vscode远程连接的原理，并解决这种问题）"
+            from 言辰
+        </description>
+        <accepts>vscode-连接服务器卡，总是断链（试图了解vscode远程连接的原理，并解决这种问题）.html</accepts>
+    </rule>
 </rules>
