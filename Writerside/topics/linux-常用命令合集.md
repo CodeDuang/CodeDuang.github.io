@@ -82,13 +82,20 @@ python -m http.server
 ```
 
 ```Bash
-查看系统和内核信息
+# 查看系统和内核信息
 
 hostnamectl
 ```
 ```Bash
-查看服务器内存
+# 查看服务器内存
 
 free -h
+```
+
+```Bash
+# 输出文档末尾几行信息（常用来查日志信息）（还有更多可扩展的东西，如和cat结合以及输出特定行数，请后续再探索）
+tail [文件名]
+# 举例
+tail output.log
 ```
     
