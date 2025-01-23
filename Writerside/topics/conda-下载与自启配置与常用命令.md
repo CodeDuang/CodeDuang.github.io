@@ -1,4 +1,4 @@
-# [conda]下载与自启配置
+# [conda]下载与自启配置与常用命令
 *注意：该博客由于是很早之前写的，现在回顾，稍有粗糙*
 
 Linux启动时读取配置文件的顺序: [https://blog.csdn.net/fengyuyeguirenenen/article/details/133978944](https://blog.csdn.net/fengyuyeguirenenen/article/details/133978944)
@@ -73,3 +73,18 @@ scoure ./bashrc
 
 保存退出后，使用`source ~/.bash_profile`命令，发现确实可以通过~/.bash_profile启动 ~/.bashrc。
 重启，发现解决问题（每次重启都需要输入一下启动~/.bashrc的命令）了。
+
+### 5.常用命令
+```bash
+# 查看conda中有哪些环境，获取所有环境名
+conda env list
+
+# conda新建环境，可以指定python版本（[]里面为用户自己定义的内容，括号要删）
+conda create -n [环境名] python=[版本号]
+
+# 关闭conda（左边的(base)就没有了）
+conda deactivate
+
+# 删除环境，并删除该环境下的所有包和依赖项（[]里面为用户自己定义的内容，括号要删）
+conda remove --name [环境名] --all
+```

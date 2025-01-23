@@ -10,7 +10,7 @@
     <toc-element topic="Article-Prompt-Engineering经验总结.md"/>
     <toc-element topic="docker-docker常用命令.md"/>
     <toc-element topic="vitepress-在vitepress中集成gitalk评论功能的步骤与坑.md"/>
-    <toc-element topic="conda-下载与自启配置.md"/>
+    <toc-element topic="conda-下载与自启配置与常用命令.md"/>
     <toc-element topic="vscode-vscode远程连接服务器并根据项目配置setting.json.md"/>
     <toc-element topic="Experience-如何设置命令行or终端代理(期待进一步完成linux的代理操作).md"/>
     <toc-element topic="link.md"/>
