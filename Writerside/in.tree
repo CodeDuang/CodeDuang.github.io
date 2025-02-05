@@ -14,6 +14,7 @@
     <toc-element topic="vscode-vscode远程连接服务器并根据项目配置setting.json.md"/>
     <toc-element topic="Experience-如何设置命令行or终端代理(期待进一步完成linux的代理操作).md"/>
     <toc-element topic="link.md"/>
+    <toc-element topic="github-用于镜像git-clone.md"/>
     <toc-element topic="Linux-新建用户与文件权限设置.md"/>
     <toc-element topic="Linux-python虚拟环境.md"/>
     <toc-element topic="linux-常用命令合集.md"/>
