@@ -14,16 +14,18 @@
 IPv4 地址 . . . . . . . . . . . . : 192.168.60.145  
 子网掩码  . . . . . . . . . . . . : 255.255.255.0  
 默认网关. . . . . . . . . . . . . : 192.168.60.150  
->   
-> **服务器的ip信息：**  
-> eno1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500  
-inet 192.168.2.100  netmask 255.255.255.0  broadcast 192.168.2.255  
-inet6 fe80::67c:16ff:fe67:7fa0  prefixlen 64  scopeid 0x20<link>  
-ether 04:7c:16:67:7f:a0  txqueuelen 1000  (以太网)  
-RX packets 14938831  bytes 13633557788 (13.6 GB)  
-RX errors 0  dropped 37860  overruns 0  frame 0  
-TX packets 14306751  bytes 12898987300 (12.8 GB)  
-TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0  
+
+> **服务器的ip信息：**    
+> eno1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500    
+inet 192.168.2.100  netmask 255.255.255.0  broadcast 192.168.2.255    
+inet6 fe80::67c:16ff:fe67:7fa0  prefixlen 64  scopeid 0x20\<link>    
+ether 04:7c:16:67:7f:a0  txqueuelen 1000  (以太网)    
+RX packets 14938831  bytes 13633557788 (13.6 GB)    
+RX errors 0  dropped 37860  overruns 0  frame 0    
+TX packets 14306751  bytes 12898987300 (12.8 GB)    
+TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0    
 device interrupt 19  memory 0x9c100000-9c120000  
+
+
 
 不清楚具体是什么情况，也无法解决，记录一下这个问题，期望后面可以解决。
