@@ -9,6 +9,8 @@
 ```Bash
 pip install faiss-gpu
 #pip install faiss-cpu #如果是没有gpu的设备
+
+pip install numpy==1.24.4 #注意，numpy必须要是1.x版本的，2.0以上版本会报错
 ```
 
 ## 2.快速上手
