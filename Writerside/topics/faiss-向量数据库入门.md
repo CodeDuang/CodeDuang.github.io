@@ -63,7 +63,7 @@ query = np.random.random((1, d)).astype('float32')
 #进行 k-NN查询
 k = 3 
 # 返回最近的k个向量
-distances，labels = index.search(query,k)
+distances,labels = index.search(query,k)
 print("Distances:", distances) # distances是检索最近k个向量的距离
 print("Labels:", labels) # labels是检索最近k个向量的标签
 
