@@ -96,6 +96,35 @@ print("删除后向量个数："+index.ntotal)
 # 略（没有直接的方法，一般通过先删除向量，再新增向量，来做到修改的目的）
 ```
 
+### 2.3.[进阶]自定义向量的索引id(注意id得是int64)
+
+在2.2中的新建faiss部分，需要创建一个IndexIDMap来管理ID映射
+```python
+import faiss
+# 指定向量长度
+d = 512 
+# 将向量的长度传递给 faiss.IndexFlatL2 函数，建立一个空的索引容器
+index = faiss.IndexFlatL2(d) 
+# 创建一个IndexIDMap来管理ID映射（以后就可以直接用index_with_id来进行增删改查）
+index_with_id = faiss.IndexIDMap(index)
+```
+<br></br><br></br>
+
+2.2的数据库新增向量部分，函数从add()变成add_with_ids()，参数额外增加一个自定义的id
+```Python
+import random
+import numpy as np
+for i in range(10):
+    # 创建长度512的向量
+    vec = np.array([[random.uniform(-10,10) for _i in range(512)]],dtype=np.float32) 
+    # 装入数据库
+    index.add_with_ids(vectors, id*100)  #此时向量的下标为0，100，200，...
+    
+```
+<br></br><br></br>
+
+数据库删除向量，数据库查询向量,和2.2部分一致
+
 ## 3.faiss数据的保存与加载
 ```Python
 # faiss索引保存
