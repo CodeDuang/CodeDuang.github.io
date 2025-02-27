@@ -18,7 +18,7 @@
     <toc-element topic="link.md"/>
     <toc-element topic="国内外镜像-github-huggingface.md"/>
     <toc-element topic="Linux-新建用户与文件权限设置.md"/>
-    <toc-element topic="Linux-python虚拟环境.md"/>
+    <toc-element topic="venv-python虚拟环境.md"/>
     <toc-element topic="linux-常用命令合集.md"/>
     <toc-element topic="Linux-查后台进程与nohup.md"/>
     <toc-element topic="Linux-ubuntu系统配置中文包-原生英文显示中文乱码.md"/>

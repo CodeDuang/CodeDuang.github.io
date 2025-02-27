@@ -126,7 +126,7 @@ rsync  -rt    /var/log    /tmp
 rsync 参数 源路径  user@ip::目标路径
 rsync 参数 user@ip::目标路径  源路径
 #举例(未验证)
-rsync -avz -P 2228  root@10.0.0.31:/var/log/   /tmp/
+rsync -avzp -e 'ssh -p 2222'  root@10.0.0.31:/var/log/   /tmp/
 ```
 **rsync命令所有可用参数如下**
 

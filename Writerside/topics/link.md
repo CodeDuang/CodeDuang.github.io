@@ -16,6 +16,10 @@ AI会议的总结（by南大周志华）：
 [byrutgame俄罗斯网站](https://byrutgame.org/)
 
 
+AIchat网页：
+[Grok(马斯克旗下xAI团队发布其首个AI大模型产品)](https://grok.com/)
+[Gemini(来自谷歌母公司Alphabet下设立的人工智能实验室)](https://gemini.google.com/)
+
 
 
  

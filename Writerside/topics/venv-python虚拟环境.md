@@ -1,4 +1,4 @@
-# [Linux]python虚拟环境
+# [venv]python虚拟环境
 
 目前已知虚拟环境方案
 
@@ -90,3 +90,15 @@ powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | ie
 - 优点: 功能齐全，速度快，也能覆盖conda的功能
 
 - 缺点: 新东西，需要学习（暂时没发现啥缺点）
+
+```Bash
+#python版本管理
+uv python install #安装 Python 版本
+uv python list #查看可用的 Python 版本
+uv python find #查找已安装的 Python 版本
+uv python pin #为当前项目指定使用的 Python 版本
+uv python uninstall #卸载 Python 版本
+
+#uv下载模块指定镜像源
+uv add --default-index https://pypi.tuna.tsinghua.edu.cn/simple requests
+```
