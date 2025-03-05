@@ -14,4 +14,9 @@ You can use it as a sandbox to play with Writerside features, and remove it from
 且目前的需求只有写文档。🤔
 <br></br>
 
+**Writerside的缺点**
+<p></p>
+&emsp;&emsp;暂时没找到搜索栏功能，以及每篇文章不能打tag，无法自动排序（左边乱糟糟的导航栏🤕）。
+<br></br>
+
 
