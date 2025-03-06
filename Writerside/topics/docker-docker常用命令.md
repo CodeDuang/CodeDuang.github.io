@@ -42,3 +42,36 @@ docker rm [容器ID]
 #删除镜像
 docker rmi [镜像名]:[版本号]
 ```
+
+### 待研究（关于docker下载镜像总是会翻墙，奇哥给出的解法）
+```Bash
+cat /usr/lib/systemd/system/docker.service
+
+如果目标机器docker上无法使用梯子 可以设置本地某台机器的代理
+[Unit]
+Description=Docker Application Container Engine
+Documentation=https://docs.docker.com
+After=network-online.target docker.socket firewalld.service containerd.service time-set.target
+Wants=network-online.target containerd.service
+Requires=docker.socket
+
+
+# for containers run by docker
+#Environment="HTTP_PROXY=http://192.168.20.214:6152"
+#Environment="HTTPS_PROXY=http://192.168.20.214:6152"
+#Environment="NO_PROXY=localhost,127.0.0.1"
+#Environment="ALL_PROXY=socks5://192.168.20.214:6153"
+
+
+
+### 下一段
+[service]
+Type=notify
+# the default is not to use systemd for cgroups because the delegate issues still
+# exists and systemd currently does not support the cgroup feature set required
+# for containers run by docker
+#Environment="HTTP_PROXY=http://192.168.20.214:6152"
+#Environment="HTTPS_PROXY=http://192.168.20.214:6152"
+#Environment="NO_PROXY=localhost,127.0.0.1"
+#Environment="ALL_PROXY=socks5://192.168.20.214:6153"
+```
