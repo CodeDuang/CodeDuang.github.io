@@ -8,6 +8,12 @@ ls -l | grep "^-" | wc -l
 ```
 
 ```Bash
+# 获取本机的局域网ip（组合命令）
+
+ip route get 1.1.1.1 | awk '{print $7}' | tr -d '\n'
+```
+
+```Bash
 # 获取内存情况
 
 free -h
