@@ -18,9 +18,23 @@ echo ".idea" > .gitignore
 
 ## github空仓库，直接上传本地项目
 ```Bash
+# 确定远程仓库
 git remote add origin git@github.com:CodeDuang/blog_old_file.git
+
+# 确定身份
+git config --global user.name "言辰寸心"
+git config --global user.email "2962402977@qq.com"
+
+# 确定分支
 git branch -M main
-git push -u origin main
+
+# 仓库同步到本地
+git pull origin main
+
+# 上传一条龙(强制上传，请务必确保远程仓库没有重要内容)
+git add .
+git commit -m "init"
+git push -u origin main --force 
 ```
 ## 其它git疑难杂症与命令
 ### 本地文件初始化为仓库(git switch --create main)：
