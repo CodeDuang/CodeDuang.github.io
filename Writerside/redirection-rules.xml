@@ -16,4 +16,20 @@
         </description>
         <accepts>vscode-连接服务器卡，总是断链（试图了解vscode远程连接的原理，并解决这种问题）.html</accepts>
     </rule>
+    <rule id="507e0c4b">
+        <description>Created after removal of "Empty XML Topic" from 言辰</description>
+        <accepts>Empty-XML-Topic.html</accepts>
+    </rule>
+    <rule id="3acf7eda">
+        <description>Created after removal of "b" from 言辰</description>
+        <accepts>b.html</accepts>
+    </rule>
+    <rule id="3993ba7b">
+        <description>Created after removal of "a" from 言辰</description>
+        <accepts>a.html</accepts>
+    </rule>
+    <rule id="143fde79">
+        <description>Created after removal of "关于python" from 言辰</description>
+        <accepts>关于python.html</accepts>
+    </rule>
 </rules>

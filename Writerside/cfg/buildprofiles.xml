@@ -9,11 +9,6 @@
             <noindex-content>false</noindex-content>
         </variables>
     </build-profile>
-    <build-profile instance="h">
-        <variables>
-            <noindex-content>true</noindex-content>
-        </variables>
-    </build-profile>
     <build-profile instance="日">
         <variables>
             <noindex-content>true</noindex-content>
