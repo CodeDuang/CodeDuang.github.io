@@ -35,13 +35,17 @@ int main(){
 全局变量：全局变量定义在所有函数之外，可以被任何函数访问。它的生存期从程序启动到程序结束
 
 ```C++
-#incldue<iostream>
+#include<iostream>
 using namespace std;
 #define hi cout
 int a = 10;
 int main(){
-    hi<<a<<end;
-    a = 12;
     hi<<a<<endl;
+    a = 12;
+    hi<<a<<endl; 
 }
+/* 输出：
+10
+12
+*/
 ```
