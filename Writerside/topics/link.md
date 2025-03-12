@@ -20,6 +20,9 @@ AIchat网页：
 [Grok(马斯克旗下xAI团队发布其首个AI大模型产品)](https://grok.com/)
 [Gemini(来自谷歌母公司Alphabet下设立的人工智能实验室)](https://gemini.google.com/)
 
+键盘工作者单词肌肉记忆：
+https://qwerty.kaiyi.cool/
+
 
 
  
