@@ -6,6 +6,7 @@
                  name="言辰"
                  start-page="starter.md">
 
+    <toc-element topic="个人面经-记录面试提问以及一些hr雷点.md"/>
     <toc-element topic="docker-docker常用命令.md"/>
     <toc-element topic="vitepress-在vitepress中集成gitalk评论功能的步骤与坑.md"/>
     <toc-element topic="faiss-向量数据库入门.md"/>
