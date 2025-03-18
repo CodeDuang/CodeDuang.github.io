@@ -3,6 +3,12 @@
 <!--Writerside adds this topic when you create a new documentation project.
 You can use it as a sandbox to play with Writerside features, and remove it from the TOC when you don't need it anymore.-->
 
+
+
+*我的github首页:  [言辰寸心](https://github.com/codeduang)*
+  
+
+
 **为什么不用hexo？**
 <p></p>
 &emsp;&emsp;多年前部署过hexo，但换电脑后，发现源文件全部丢失了，github上部署的代码都是编译后的，回不去了。😢
@@ -20,3 +26,5 @@ You can use it as a sandbox to play with Writerside features, and remove it from
 <br></br>
 
 
+
+ 
