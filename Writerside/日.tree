@@ -6,6 +6,7 @@
                  name="日记"
                  start-page="日记.md">
 
+    <toc-element topic="秋城落叶.md"/>
     <toc-element topic="日记.md"/>
     <toc-element topic="关于python.md"/>
 </instance-profile>
