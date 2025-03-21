@@ -1,7 +1,6 @@
 # [docker] docker常用命令
 
 
-
 ## 查看容器基本信息
 ```Bash
 docker ps -a

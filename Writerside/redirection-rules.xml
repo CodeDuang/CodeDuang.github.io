@@ -32,4 +32,28 @@
         <description>Created after removal of "关于python" from 言辰</description>
         <accepts>关于python.html</accepts>
     </rule>
+    <rule id="5a3aedbb">
+        <description>Created after removal of "常用命令集合" from 言辰</description>
+        <accepts>常用命令集合.html</accepts>
+    </rule>
+    <rule id="243c9a55">
+        <description>Created after removal of "Empty MD Topic" from 言辰</description>
+        <accepts>Empty-MD-Topic.html</accepts>
+    </rule>
+    <rule id="3fb9ce6d">
+        <description>Created after removal of "Empty MD Topic" from 言辰</description>
+        <accepts>Empty-MD-Topic.html</accepts>
+    </rule>
+    <rule id="1684af57">
+        <description>Created after removal of "Linux_anything" from 言辰</description>
+        <accepts>Linux-anything.html</accepts>
+    </rule>
+    <rule id="51ccd624">
+        <description>Created after removal of "Empty MD Topic" from 言辰</description>
+        <accepts>Empty-MD-Topic.html</accepts>
+    </rule>
+    <rule id="6c3c17e3">
+        <description>Created after removal of "my_article" from 言辰</description>
+        <accepts>my-article.html</accepts>
+    </rule>
 </rules>

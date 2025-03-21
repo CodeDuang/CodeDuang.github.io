@@ -6,7 +6,29 @@
                  name="言辰"
                  start-page="starter.md">
 
-    <toc-element topic="个人面经-记录面试提问以及一些hr雷点.md"/>
+    <toc-element toc-title="Linux_Anything">
+        <toc-element topic="linux-常用命令合集.md"/>
+        <toc-element topic="Linux-查后台进程与nohup.md"/>
+        <toc-element topic="Linux-新建用户与文件权限设置.md"/>
+        <toc-element topic="Linux-ubuntu系统配置中文包-原生英文显示中文乱码.md"/>
+    </toc-element>
+    <toc-element toc-title="My_Article">
+        <toc-element topic="实习回忆录-北大成都研究所-万物纵横.md"/>
+        <toc-element topic="Article-Prompt-Engineering经验总结.md"/>
+        <toc-element topic="个人面经-记录面试提问以及一些hr雷点.md"/>
+    </toc-element>
+    <toc-element toc-title="Math">
+        <toc-element topic="协方差-标准差-皮尔逊相关系数.md"/>
+    </toc-element>
+    <toc-element toc-title="Python">
+        <toc-element topic="venv-python虚拟环境.md"/>
+    </toc-element>
+    <toc-element toc-title="C++">
+        <toc-element topic="Cpp-蓝桥杯备赛-基础知识.md"/>
+        <toc-element topic="Cpp-用txt文本内容代替cin手动输入.md"/>
+        <toc-element topic="Cpp-蓝桥杯备赛-背诵模板.md"/>
+    </toc-element>
+    <toc-element topic="markdown数学公式-写法.md"/>
     <toc-element topic="docker-docker常用命令.md"/>
     <toc-element topic="vitepress-在vitepress中集成gitalk评论功能的步骤与坑.md"/>
     <toc-element topic="faiss-向量数据库入门.md"/>
@@ -15,21 +37,11 @@
     <toc-element topic="Experience-如何设置命令行or终端代理(期待进一步完成linux的代理操作).md"/>
     <toc-element topic="link.md"/>
     <toc-element topic="国内外镜像-github-huggingface.md"/>
-    <toc-element topic="Linux-新建用户与文件权限设置.md"/>
-    <toc-element topic="venv-python虚拟环境.md"/>
-    <toc-element topic="linux-常用命令合集.md"/>
-    <toc-element topic="Linux-查后台进程与nohup.md"/>
-    <toc-element topic="Linux-ubuntu系统配置中文包-原生英文显示中文乱码.md"/>
-    <toc-element topic="Cpp-蓝桥杯备赛-背诵模板.md"/>
-    <toc-element topic="Cpp-蓝桥杯备赛-基础知识.md"/>
     <toc-element topic="关于浏览器打开某网页慢的解法-查最快ip，改host.md"/>
-    <toc-element topic="Cpp-用txt文本内容代替cin手动输入.md"/>
     <toc-element topic="SQL-mysql学习笔记（连载中）.md"/>
     <toc-element topic="git-git疑难杂症与命令.md"/>
     <toc-element topic="huggingface-huggingface_cannt_git_clone.md"/>
     <toc-element topic="starter.md"/>
     <toc-element topic="快捷键.md"/>
-    <toc-element topic="Article-Prompt-Engineering经验总结.md"/>
     <toc-element topic="路由-上层路由无法ping通下层路由的问题.md"/>
-    <toc-element topic="实习回忆录-北大成都研究所-万物纵横.md"/>
 </instance-profile>
