@@ -42,7 +42,7 @@ docker rm [容器ID]
 docker rmi [镜像名]:[版本号]
 ```
 
-## 添加用户到docker组
+## 添加用户到docker组 {#docker_1}
 ```Bash
 # 查看当前用户所属所有组（输出如：user adm cdrom sudo dip plugdev lxd docker，第一个是用户名，后面是所属组，查看有没有docker）
 groups
@@ -66,7 +66,7 @@ sudo service docker restart
 然后重新登录用户，此时使用`groups`就可以看到后面多了一个docker，同时`docker ps -a`也可以正常显示。
 
 
-### 待研究（关于docker下载镜像总是会翻墙，奇哥给出的解法）
+### 待研究（关于docker下载镜像总是会翻墙，奇哥给出的解法） {#docker_2}
 ```Bash
 cat /usr/lib/systemd/system/docker.service
 
