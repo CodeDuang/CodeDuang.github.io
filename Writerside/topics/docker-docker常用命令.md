@@ -42,6 +42,30 @@ docker rm [容器ID]
 docker rmi [镜像名]:[版本号]
 ```
 
+## 添加用户到docker组
+```Bash
+# 查看当前用户所属所有组（输出如：user adm cdrom sudo dip plugdev lxd docker，第一个是用户名，后面是所属组，查看有没有docker）
+groups
+```
+如果`groups`没有看到docker，则执行下面步骤，以添加docker组
+```Bash
+# 用户添加入docker组
+sudo usermod -aG docker $USER
+#usermod: 用于修改用户账户信息。
+#-a: 将用户添加到组，而不从其他组中删除。
+#-G: 指定要添加到的组（这里是 docker）。
+#$USER: 你的用户名。你可以使用 $USER 环境变量来代替你的用户名
+```
+务必注意，现在使用`docker ps -a`依然是没有权限的，你还需要重启docker服务，并重进用户终端。
+```Bash
+#重启Docker服务
+sudo systemctl restart docker
+# or
+sudo service docker restart
+```
+然后重新登录用户，此时使用`groups`就可以看到后面多了一个docker，同时`docker ps -a`也可以正常显示。
+
+
 ### 待研究（关于docker下载镜像总是会翻墙，奇哥给出的解法）
 ```Bash
 cat /usr/lib/systemd/system/docker.service
