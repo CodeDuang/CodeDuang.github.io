@@ -66,7 +66,7 @@ sudo service docker restart
 然后重新登录用户，此时使用`groups`就可以看到后面多了一个docker，同时`docker ps -a`也可以正常显示。
 
 
-### 待研究（关于docker下载镜像总是会翻墙，奇哥给出的解法） {#docker_2}
+## 待研究（关于docker下载镜像总是会翻墙，奇哥给出的解法） {#docker_2}
 ```Bash
 cat /usr/lib/systemd/system/docker.service
 
