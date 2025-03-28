@@ -15,10 +15,16 @@ docker images
 ## 构建容器
 ```Bash
 #在包含 Dockerfile 的目录中运行以下命令来构建镜像
-docker build -t my_image_name .
+#docker build -t [镜像名称]:[版本] [目录]
+#eg:
+docker build -t my_image_name:0.1 .
 
 #将根据当前目录中的 docker-compose.yml 文件启动服务
 docker-compose up -d
+
+
+# 如果只是想根据镜像临时启动容器
+docker run --rm my_image_name:0.1
 ```
 
 
@@ -64,6 +70,39 @@ sudo systemctl restart docker
 sudo service docker restart
 ```
 然后重新登录用户，此时使用`groups`就可以看到后面多了一个docker，同时`docker ps -a`也可以正常显示。
+
+
+## 我的Dockerfile
+```docker
+#初始镜像90多MB
+FROM ubuntu:20.04
+
+#设置非交互模式（不需要用户手动确认，所有配置都用默认）
+ENV DEBIAN_FRONTEND=noninteractive
+
+# apt更新，并下载python和pip(默认似乎是3.8)
+RUN apt-get update && \
+    apt-get install -y python3-pip && \
+    ln -s /usr/bin/python3 /usr/bin/python
+
+#更新pip源和更新pip
+RUN pip config set global.index-url https://pypi.mirrors.ustc.edu.cn/simple && \
+    pip install --upgrade pip
+
+# 下载python环境
+RUN pip install numpy opencv-python-headless
+
+RUN pip install torch ultralytics
+
+# 把本地文件夹映射到docker中
+COPY /app /app
+
+# 设置工作目录(即在docker中以该目录为根目录)
+WORKDIR /app
+
+# 执行命令
+CMD python app.py
+```
 
 
 ## 待研究（关于docker下载镜像总是会翻墙，奇哥给出的解法） {#docker_2}
