@@ -23,6 +23,10 @@
     </toc-element>
     <toc-element toc-title="Python">
         <toc-element topic="venv-python虚拟环境.md"/>
+        <toc-element topic="单例.md"/>
+        <toc-element topic="python常量池.md"/>
+        <toc-element topic="装饰器.md"/>
+        <toc-element topic="禁止坏习惯-函数参数为可变参数时-不要给默认值.md"/>
     </toc-element>
     <toc-element toc-title="C++">
         <toc-element topic="Cpp-蓝桥杯备赛-基础知识.md"/>
