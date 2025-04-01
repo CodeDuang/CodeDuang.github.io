@@ -35,6 +35,7 @@
         <toc-element topic="Cpp-蓝桥杯备赛-背诵模板.md"/>
     </toc-element>
     <toc-element topic="docker-docker常用命令.md"/>
+    <toc-element topic="docker-构建通用模型运行镜像.md"/>
     <toc-element topic="vitepress-在vitepress中集成gitalk评论功能的步骤与坑.md"/>
     <toc-element topic="faiss-向量数据库入门.md"/>
     <toc-element topic="conda-下载与自启配置与常用命令.md"/>
