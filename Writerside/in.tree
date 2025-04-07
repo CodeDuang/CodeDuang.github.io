@@ -17,6 +17,7 @@
         <toc-element topic="实习回忆录-北大成都研究所-万物纵横.md"/>
         <toc-element topic="Article-Prompt-Engineering经验总结.md"/>
         <toc-element topic="个人面经-记录面试提问以及一些hr雷点.md"/>
+        <toc-element topic="自我介绍背诵模板.md"/>
     </toc-element>
     <toc-element toc-title="Math">
         <toc-element topic="markdown数学公式-写法.md"/>
@@ -43,6 +44,7 @@
     <toc-element topic="vscode-vscode远程连接服务器并根据项目配置setting.json.md"/>
     <toc-element topic="Experience-如何设置命令行or终端代理(期待进一步完成linux的代理操作).md"/>
     <toc-element topic="link.md"/>
+    <toc-element topic="招聘信息-求职链接.md"/>
     <toc-element topic="国内外镜像-github-huggingface.md"/>
     <toc-element topic="关于浏览器打开某网页慢的解法-查最快ip，改host.md"/>
     <toc-element topic="SQL-mysql学习笔记（连载中）.md"/>
