@@ -56,4 +56,8 @@
         <description>Created after removal of "my_article" from 言辰</description>
         <accepts>my-article.html</accepts>
     </rule>
+    <rule id="542f857a">
+        <description>Created after removal of "Empty MD Topic" from 言辰</description>
+        <accepts>Empty-MD-Topic.html</accepts>
+    </rule>
 </rules>
