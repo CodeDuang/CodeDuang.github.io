@@ -22,7 +22,7 @@ You can use it as a sandbox to play with Writerside features, and remove it from
 
 **Writerside的缺点**
 <p></p>
-&emsp;&emsp;暂时没找到搜索栏功能（但我看官方是有搜索功能的），以及每篇文章不能打tag，无法自动排序（左边乱糟糟的导航栏🤕好像有折叠功能，还不会用）。
+&emsp;&emsp;暂时没找到搜索栏功能（但我看官方是有搜索功能的）(已解决)，以及每篇文章不能打tag，无法自动排序（左边乱糟糟的导航栏🤕好像有折叠功能，还不会用(已解决)）。
 <br></br>
 
 
