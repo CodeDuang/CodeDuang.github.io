@@ -76,21 +76,26 @@ ssh -T git@github.com
 ## ssh-agent
 
 ```Bash
-# 报错(系统无法连接到ssh-agent)
+# 报错如下(系统无法连接到ssh-agent)
 Could not open a connection to your authentication agent.
 
-# 启动 SSH 代理
+# 解决方法：启动 SSH 代理
 eval "$(ssh-agent -s)"
 ```
 
-
-本地生成密匙（注意最后的邮箱，可填自己邮箱）：
+## 权限拒绝
+1.本地生成密匙（注意最后的邮箱，可填自己邮箱）：
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
-本地选择密钥路径
+2.本地选择密钥路径
 ssh-add ~/.ssh/id_rsa
 
-检查SSH Agent服务状态
+3.在github自己的账号里面，添加id_rsa.pub中内容到令牌中，以方便令牌验证登录（注意，github只允许通过令牌登录git以同步仓库信息）
+![image_58.png](image_58.png)
+
+（理论上此时就可以进行访问了，如果还是权限拒绝，那就使用`ssh-add "D:\blog\.ssh\id_rsa"`指定本地对应令牌作为认证信息）
+
+## 检查SSH Agent服务状态 {id="SSH_1"}
 `win+R` 打开运行  
 输入： `services.msc`  
 找到：OpenSSH Authentication Agent  
@@ -101,7 +106,7 @@ ssh-add ~/.ssh/id_rsa
 最后执行 ssh-add "D:\blog\.ssh\id_rsa" 来添加你的私钥  
 
 ## 443端口
-如果在配置了ssh-agent还有密钥，还是无法使用  
+如果在配置了ssh-agent还有密钥(令牌)，还是无法使用  
 `ssh -T git@github.com`成功连接github,  
 可以试试`ssh -T -p 443 git@ssh.github.com`如果成功，说明主要问题出现在22端口无法访问，  
 在这个路径：`C:\Users\[用户名]\.ssh`找到文件`config`,编辑加入下面这段：  
