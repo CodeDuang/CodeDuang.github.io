@@ -2,3 +2,5 @@ Client ID：2b8cae4ccd04981481cb
 密钥：83d20b4283b0dfaf8296e9f6ec779007fad5ed51
 部署gitalk当前参考：https://cloud.tencent.com/developer/article/2129897
 出现404报错解决方案：问题出在ower上面，我的名称是CodeDuang而不是Dingdong,后者是昵称
+
+
