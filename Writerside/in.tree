@@ -12,8 +12,8 @@
         <toc-element topic="Linux-新建用户与文件权限设置.md"/>
         <toc-element topic="Linux-ubuntu系统配置中文包-原生英文显示中文乱码.md"/>
         <toc-element topic="Linux-服务器重新打网卡驱动.md"/>
+        <toc-element topic="Linux-无网环境下服务器的环境配置.md"/>
     </toc-element>
-    <toc-element topic="Linux-无网环境下服务器的环境配置.md"/>
     <toc-element toc-title="My_Article">
         <toc-element topic="秋城落叶-关于如何维护开源项目和学习新技术.md"/>
         <toc-element topic="实习回忆录-北大成都研究所-万物纵横.md"/>
