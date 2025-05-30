@@ -1,6 +1,51 @@
 # [git]git疑难杂症与命令
 
-## git清除缓存+忽略上传文件 {id="git_1"}
+## 1.身份认证 {id="1."}
+_(所有远程仓库代码同步大前提，上传和同步的各种权限错误大概是这个步骤没做)_ 
+
+第一步：本地git交互窗口生成密匙（注意最后的邮箱，可填自己邮箱）：
+```Bash
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+```
+![image_69.png](image_69.png)
+
+第二步：根据提示路径(红色部分，可以自己设置)复制后缀为.pub的文件内容。
+
+![image_70.png](image_70.png)
+
+第三步：打开自己的github，在个人头像下面选择：
+
+![image_71.png](image_71.png)
+
+## 2.git连接远程仓库流程 {id = "git_1"}
+### 情况1：远程仓库为空，本地仓库不为空，上传代码
+```Bash
+# 确定远程仓库
+git remote add origin git@github.com:CodeDuang/blog_old_file.git
+
+# 确定身份
+git config --global user.name "言辰寸心"
+git config --global user.email "2962402977@qq.com"
+
+# 确定分支
+git branch -M main
+
+# 仓库同步到本地
+git pull origin main
+
+# 上传一条龙(强制上传，请务必确保远程仓库没有重要内容)
+git add .
+git commit -m "init"
+git push -u origin main --force 
+```
+
+## 3.git常用命令 {id="git_2"}
+### 初始化仓库
+```Bash
+git init
+```
+
+### git清除缓存+忽略上传文件  {id="git_3"}
 ### 清除缓存
 ```Bash
 #这种会清除本地所有的git add . 和 git commit -m "" 的东西
