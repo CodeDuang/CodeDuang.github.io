@@ -10,7 +10,7 @@ You can use it as a sandbox to play with Writerside features, and remove it from
 **博客更新日志**
 ‎  
 ‎  
-`[git]git疑难杂症与命令`：这破教程一点不好用，次次掉链子，得好好的改改了。（修改中...）
+(很遗憾，我似乎没有写完博客就及时更新”博客更新日志“部分的习惯，导致这部分没有太多参考意义，所以干脆不写了，等以后像一个自动化的方案吧)
 
 **为什么不用hexo？**
 <p></p>
