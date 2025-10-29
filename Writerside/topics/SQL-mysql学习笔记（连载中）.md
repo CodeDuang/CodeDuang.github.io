@@ -3,6 +3,16 @@
 学习视频：[【数据库】SQL 3小时快速入门 #数据库教程 #SQL教程 #MySQL教程 #database#Python连接数据库
 ](https://www.bilibili.com/video/BV1PT4y1e7UU/?spm_id_from=333.1007.top_right_bar_window_custom_collection.content.click&vd_source=e50f352f1c6366bbfab82c566af2e7c2)
 
+
+# 0.MySQL命令速查
+## 0.1.database、table、column、value不同层级增删改查
+| --- | --- | --- | 
+|  | 增 | 删 | 改 | 查 | 
+| database | create | drop |  | show |    
+| table | create | drop |  | select * |  
+| column | alter+add  | alter+drop |  | describe |  
+| value | insert | delete | update | where |  
+
 # 1.SQL的基础知识
 ## 1.1.表(table)和键(key)
 一个表的基本形式如下：
@@ -78,7 +88,7 @@ CREATE TABLE `student`( #新增`student`表格，注意最后一个属性末尾�
 创建表格的代码可以分解为：主体+属性
 主体部分：
 
-```powershell
+```Bash
 CREATE TABLE `[表格名]`(
 	...
 	属性部分
@@ -86,7 +96,7 @@ CREATE TABLE `[表格名]`(
 );
 ```
 属性部分：
-```powershell
+```Bash
 `[属性a]` [类型名],
 `[属性b]` [类型名],
 ...
