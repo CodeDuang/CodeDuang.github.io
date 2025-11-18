@@ -46,3 +46,26 @@ ls -l
 效果如图:
 
 ![image_23.png](image_23.png)
+
+## 补充：查看本地用户
+
+##### 最简单的，通过查看/etc/passwd
+```Bash
+cat /etc/passwd
+```
+
+##### 只查看已创建过密码的账户（即真正可登录的用户）
+```Bash
+awk -F: '$2 != "*" && $2 != "!" {print $1}' /etc/shadow
+```
+
+##### 查看谁在线
+```Bash
+w
+```
+
+## 补充：删除特定用户(包括用户账号和用户目录)
+```Bash
+sudo userdel -r [用户名]
+```
+eg：sudo userdel -r xcl
