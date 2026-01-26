@@ -33,6 +33,7 @@
         <toc-element topic="倒排索引.md"/>
     </toc-element>
     <toc-element toc-title="Python">
+        <toc-element topic="枚举类与枚举成员.md"/>
         <toc-element topic="venv-python虚拟环境.md"/>
         <toc-element topic="单例.md"/>
         <toc-element topic="python常量池.md"/>
