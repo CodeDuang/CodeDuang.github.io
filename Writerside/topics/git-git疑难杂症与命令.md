@@ -135,6 +135,15 @@ git commit -m "上传"
 git push --set-upstream origin main
 ```
 
+### win和linux换行符不一致问题
+```Bash
+# 在win上传的代码或脚本，常常git会警告如下内容
+# warning: LF will be replaced by CRLF in <文件名>.
+# 这是git在跨平台上对行尾符号的差异化解释，window（\r\n），linux（\n）
+# 可以通过下面命令将win相关的文件换行符转化为linux格式
+dox2unix [文件名]
+```
+
 
 
 
