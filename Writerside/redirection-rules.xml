@@ -60,4 +60,8 @@
         <description>Created after removal of "Empty MD Topic" from 言辰</description>
         <accepts>Empty-MD-Topic.html</accepts>
     </rule>
+    <rule id="d0b320d">
+        <description>Created after removal of "贝叶斯公式" from 言辰</description>
+        <accepts>贝叶斯公式.html</accepts>
+    </rule>
 </rules>
