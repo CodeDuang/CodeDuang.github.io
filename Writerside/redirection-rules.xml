@@ -64,4 +64,8 @@
         <description>Created after removal of "贝叶斯公式" from 言辰</description>
         <accepts>贝叶斯公式.html</accepts>
     </rule>
+    <rule id="5ac60055">
+        <description>Created after removal of "[实习回忆录]北大成都研究所_万物纵横_西门子" from 言辰</description>
+        <accepts>实习回忆录-北大成都研究所-万物纵横.html</accepts>
+    </rule>
 </rules>
